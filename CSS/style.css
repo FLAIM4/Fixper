@@ -187,3 +187,13 @@ a {
     z-index: 2;
     color: white;
 }
+
+.overly__skidka {
+    position: relative;
+    background-color: #000000;
+    width: 1170px;
+    height: 49px;
+    z-index: 2;
+    border-radius: 5px;
+    margin-top: 172px;
+}

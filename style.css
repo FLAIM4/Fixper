@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+}
+
+a {
+    color:rgb(255, 255, 255);
+}
+
+.header-logo img {
+   height: 33px;
+}
+
+
+.btn1 {
+    width: 162px;
+    height: 55px;
+    background-color: #ffc46400;
+    border: 2px solid #FFC464;
+    border-radius: 15px;
+}
+
+.a-medium a{
+    font-family: "TTNorms";
+    font-weight: 500;
+    font-size: 29.24px;
+    text-decoration: none;
+}
+
+.btn1  {
+    font-family: "TTNorms";
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    color: #FFC464;
+}
+
+.moscow {
+    font-family: "TTNorms";
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.header {
+    background-color: #A95094;
+    width: 100%;
+    height: 850px;
+    display: flex;
+}
+
+.row {
+    margin: 0px auto;
+    display: flex;
+}
+
+.header-nav a {
+    font-size: 16px;
+}
+
+.header-logo {
+    margin-right: 75px;
+}
+
+.header-btn {
+    display: flex;
+}
+
+#vpros { 
+    margin-right: 36px;
+}
+
+.moscow-row {
+    margin-left: 160px;
+    margin-right: 40px;
+}
+
+.header-logo {
+    margin-top: 35px;
+}
+
+.header-nav , .moscow-row {
+    margin-top: 46px;
+}
+
+.btn1 {
+    margin-top: 29px;
+}

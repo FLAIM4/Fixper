@@ -2,14 +2,33 @@ body {
     margin: 0;
 }
 
+h1 {
+    font-family: "TTNorms";
+    font-weight: 800;
+    font-size: 67px;
+    color: #FFF;
+    line-height: 95%;
+}
+
+p {
+    color: #FFF;
+    font-family: "TTNorms";
+    font-weight: 700;
+    font-size: 20px;
+    display: inline;
+}
+
 a {
     color:rgb(255, 255, 255);
+}
+
+.header {
+    display: flex;
 }
 
 .header-logo img {
    height: 33px;
 }
-
 
 .btn1 {
     width: 162px;
@@ -34,23 +53,23 @@ a {
     color: #FFC464;
 }
 
-.moscow {
+#moscow {
     font-family: "TTNorms";
     font-weight: 500;
     text-decoration: none;
     font-size: 16px;
 }
 
-.header {
+.main {
     background-color: #A95094;
     width: 100%;
     height: 850px;
-    display: flex;
 }
 
 .row {
-    margin: 0px auto;
-    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1170px;
 }
 
 .header-nav a {
@@ -84,4 +103,48 @@ a {
 
 .btn1 {
     margin-top: 29px;
+}
+
+.moscow-row {
+    justify-items: center;
+}
+
+#moscow{
+    margin-top: 5px;
+}
+
+.header_main {
+    display: flex;
+}
+
+.mn-bottom-0 {
+    margin-bottom: 0;
+}
+
+.mn-top-25 {
+    margin-top: 25px;
+}
+
+.h1c {
+    margin-top: 183px;
+    margin-left: 506px;
+    margin-bottom: 0;
+}
+
+.pc {
+    margin-top: 25px;
+    margin-left: 506px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.orange {
+    color: #FFC464;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.p__text {
+    margin-top: 25px;
+    margin-left: 506px;
 }

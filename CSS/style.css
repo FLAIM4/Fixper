@@ -24,7 +24,6 @@ a {
 
 .header {
     display: flex;
-    justify-content: space-between;
 }
 
 .header-logo img {
@@ -70,7 +69,7 @@ a {
 .row {
     margin-left: auto;
     margin-right: auto;
-    width: 1440px;
+    width: 1170px;
     position: relative;
 }
 
@@ -189,7 +188,6 @@ a {
     color: white;
 }
 
-
 .overly__skidka {
     display: flex;
     position: relative;
@@ -242,7 +240,7 @@ a {
 
 .row-1 {
     margin: 0 auto;
-    width: 1440px;
+    width: 1170px;
 }
 
 

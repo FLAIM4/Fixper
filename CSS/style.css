@@ -24,6 +24,7 @@ a {
 
 .header {
     display: flex;
+    justify-content: space-between;
 }
 
 .header-logo img {
@@ -69,7 +70,7 @@ a {
 .row {
     margin-left: auto;
     margin-right: auto;
-    width: 1170px;
+    width: 1440px;
     position: relative;
 }
 
@@ -188,6 +189,7 @@ a {
     color: white;
 }
 
+
 .overly__skidka {
     display: flex;
     position: relative;
@@ -237,20 +239,100 @@ a {
     margin-right: 25px;
 }
 
-.o__nas {
-    height: 380px;
-}
 
 .row-1 {
     margin: 0 auto;
-    height: 380px;
-    width: 1170px;
+    width: 1440px;
 }
 
-.row-1 {
-    display: flex;
-}
 
 .color-black {
     color: black;
+}
+
+.cont {
+    display: flex;
+    margin-top: 75px;
+    margin-bottom: 75px;
+} 
+
+.block__img {
+    display: block;
+    margin-bottom: 30px;
+}
+
+ .block2, .block3, .block4 {
+    margin-left: 93px;
+}
+
+.wiyp {
+    background: linear-gradient(0deg, #FAFAFA 0%, #FAFAFA 100%), #FAE6F5;
+}
+
+.row-2 {
+    margin: 0 auto;
+    width: 1440px;
+    padding-top: 115px;
+    height: 818px;
+}
+
+.p__text__1 {
+    color: #A95094;
+    font-family: "TTNorms";
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.p__text__2 {
+    color: #000;
+    font-family: "TTNorms";
+    font-size: 45px;
+    font-weight: bold;
+}
+
+
+.btn__click {
+    height: 54px;
+    border-radius: 15px;
+    border: solid 1px #96317D;
+    background-color: #a9509400;
+    color: #96317D;
+    font-family: "TTNorms";
+    font-weight: 700;
+    font-size: 16px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    padding: 15px 30px;
+}
+
+.btn__color {
+    background-color: #96317D;
+    color: #ffffff;
+}
+
+.div1 {
+    margin-bottom: 15px;
+}
+
+.div2 {
+    margin-bottom: 50px;
+    font-family: "TTNorms";
+    font-weight: bold;
+}
+
+.div3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 813px;
+}
+
+.row-2 {
+    position: relative;
+}
+
+.btn__cont {
+    position: relative;
+    z-index: 2;
 }

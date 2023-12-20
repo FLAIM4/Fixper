@@ -236,3 +236,21 @@ a {
 .ot1 {
     margin-right: 25px;
 }
+
+.o__nas {
+    height: 380px;
+}
+
+.row-1 {
+    margin: 0 auto;
+    height: 380px;
+    width: 1170px;
+}
+
+.row-1 {
+    display: flex;
+}
+
+.color-black {
+    color: black;
+}
